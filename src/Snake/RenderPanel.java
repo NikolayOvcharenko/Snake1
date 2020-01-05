@@ -15,12 +15,18 @@ public class RenderPanel extends JPanel {
         g.setColor(green);
         g.fillRect(0, 0, 800, 700);
         Snake snake = Snake.snake;
-        g.setColor(Color.RED);
+        g.setColor(Color.BLUE);
         for (Point point : snake.snakeParts) {
 
             g.fillRect(point.x * Snake.SCALE, point.y * Snake.SCALE, Snake.SCALE, Snake.SCALE);
             }
         g.fillRect(snake.head.x * Snake.SCALE, snake.head.y * Snake.SCALE, Snake.SCALE, Snake.SCALE);
+        g.setColor(Color.RED);
+        g.fillRect(snake.cherry.x * Snake.SCALE, snake.cherry.y * Snake.SCALE, Snake.SCALE, Snake.SCALE);
+
+        String string = "Score: " + snake.score + ", Length: " + snake.tailLength + ", Time: " + snake.ticks / 20;
+        g.setColor(Color.WHITE);
+        g.drawString(string, (int) (getWidth() / 2 - string.length() * 1.5f)  ,10);
     }
 }
 
