@@ -21,7 +21,7 @@ public class Snake implements ActionListener, KeyListener {
 
     public ArrayList<Point> snakeParts = new ArrayList<>();
     public static final int UP = 0, DOWN = 1, LEFT = 2, RIGHT = 3, SCALE = 10;
-    public  int ticks = 0, direction = DOWN, score , tailLength = 10;
+    public  int ticks = 0, direction = DOWN, score , tailLength = 10, time;
     public Point head, cherry;
     public Random random;
     public Dimension dim;
@@ -46,6 +46,7 @@ public class Snake implements ActionListener, KeyListener {
     {
         over=false;
         paused=false;
+        time=0;
         score=0;
         tailLength=5;
         direction=DOWN;
@@ -66,6 +67,7 @@ public class Snake implements ActionListener, KeyListener {
         renderPanel.repaint();
         ticks++;
         if (ticks % 4 == 0 && head != null && !over  && !paused){
+            time++;
             snakeParts.add(new Point(head.x, head.y));
             if (direction == UP) {
                 if (head.y - 1 >= 0 && noTailAt(head.x, head.y+1) )

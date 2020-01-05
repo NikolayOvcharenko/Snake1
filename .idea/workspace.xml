@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="065885d8-5257-49f3-a26e-a07a1a4cb695" name="Default Changelist" comment="" />
+    <list default="true" id="065885d8-5257-49f3-a26e-a07a1a4cb695" name="Default Changelist" comment="End standart (ver 1.1)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Snake1/Snake/RenderPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Snake1/Snake/RenderPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Snake1/Snake/Snake.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Snake1/Snake/Snake.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Snake/RenderPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Snake/RenderPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Snake/Snake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Snake/Snake.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578231309267</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="End standart (ver 1.1)">
+      <created>1578231484012</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1578231484012</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -137,6 +150,7 @@
     <MESSAGE value="в пороцессе" />
     <MESSAGE value="в процессе 2" />
     <MESSAGE value="End standart (ver 1.0)" />
-    <option name="LAST_COMMIT_MESSAGE" value="End standart (ver 1.0)" />
+    <MESSAGE value="End standart (ver 1.1)" />
+    <option name="LAST_COMMIT_MESSAGE" value="End standart (ver 1.1)" />
   </component>
 </project>
