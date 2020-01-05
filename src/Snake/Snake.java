@@ -62,7 +62,7 @@ public class Snake implements ActionListener, KeyListener {
 
     @Override
     public void actionPerformed(ActionEvent arg0) {
-        System.out.println(head.x+ ", "+ head.y);
+        //System.out.println(head.x+ ", "+ head.y);
         renderPanel.repaint();
         ticks++;
         if (ticks % 4 == 0 && head != null && !over  && !paused){
